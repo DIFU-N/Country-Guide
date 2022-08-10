@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Guide</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="search">
+            <input type="text" class="type" id="type" placeholder="Pick a Country...">
+            <input type="button" class="btn" id="btn" value="Search">
+        </form>
+
+        <div class="results">
+            <div class="flag">
+                <img src="" id="flg" width="480" height="200" alt="Flag"><br>
+                <span id="country"></span>
+            </div>
+            <div class="details">
+                Capital: <span id="cap"></span><p></p>
+                Continent: <span id="cont"></span><p></p>
+                Population: <span id="pop"></span><p> </p>
+                <!-- Currency: <span id="curr"></span><p> </p> -->
+                <!-- Common Language: <span id="lang"></span><p> </p> -->
+                UN Member: <span id="um"></span><p> </p>
+                Independent: <span id = "ind"></span><p></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

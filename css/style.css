@@ -1,0 +1,42 @@
+body{
+    margin: 15px;
+    background-color: aqua;
+}
+.container{
+    display: block;
+    background-color: wheat;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 25px;
+    margin-left: 200px;
+    margin-top: 60px;
+    width: 700px;
+    height: 500px;
+}
+.type{
+    margin-left: 20px;
+    border: 1px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 7px;
+    border-radius: 3px;
+    font-size: 16px;
+    width: 60%;
+}
+.btn{
+    margin-left: 20px;
+    padding: 7px;
+    border-radius: 20px;
+    width: 90px;
+    font-size: 13px;
+    color: white;
+    background-color: blue;
+}
+.flag{
+    height: 250px;
+}
+#country{
+    font-size: large;
+    align-self: center;
+}
